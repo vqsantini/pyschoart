@@ -1,0 +1,13 @@
+header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.input-search {
+    width: 400px;
+    background-color: black;
+    
+}
