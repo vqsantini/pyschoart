@@ -1,5 +1,48 @@
 .web {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to right, #984D38 -50%, #181e41 100%)
+  width: 100vw;
+  height: 100%;
+  background: linear-gradient(to right, #984D38 -50%, #181e41 100%);
+  padding: 0px 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.topic {
+  color: white;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.button-press:active {
+  transform: scale(0.95);
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
+.half-white {
+  color: white;
+  opacity: 50%;
+}
+
+.purple {
+  background: linear-gradient(to right, #B75CFF 0%, #671AE4 100%);
+  padding: 10px 20px;
+  border-radius: 9px;
+}
+
+.gray {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 20px;
+  border-radius: 9px;
+}
+
+.lorem {
+  font-size: 1.25rem;
+  font-weight: 500;
 }

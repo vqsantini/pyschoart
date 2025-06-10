@@ -1,0 +1,38 @@
+.colleaction {
+  padding-top: 200px;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px ;
+}
+
+.colleaction-apresentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.colleaction-topics {
+  display: flex;
+  width: calc(100vw - 200px);
+  height: 30px;
+  gap: 10px;
+}
+
+.colleaction-topics button {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+}
